@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+
+body {
+  background-color: rgb(5, 28, 76);
+  font-family: "Pixelify Sans", sans-serif;
+  text-align: center;
+}
+
+h1#level-title {
+  font-size: 5rem;
+  color: rgb(221, 217, 193);
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.btn button {
+  border: solid black 10px;
+  width: 220px;
+  height: 220px;
+  border-radius: 50px;
+  margin: 25px;
+}
+
+.green button {
+  background-color: green;
+}
+
+.red button {
+  background-color: red;
+}
+
+.blue button {
+  background-color: blue;
+}
+
+.yellow button {
+  background-color: yellow;
+}
+
+.row {
+  display: inline-block;
+}
+
+.container {
+  margin-top: 0px;
+}
+
+.pressed {
+  box-shadow: 0 0 10px white;
+  background-color: grey;
+}
